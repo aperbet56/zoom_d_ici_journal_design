@@ -157,3 +157,20 @@ footer {
     text-transform: uppercase;
     font-style: italic;
 }
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 25px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col:not(:last-child) {
+        border-right: none;
+        border-bottom: 2px solid #f2f4f6;
+    }
+}
