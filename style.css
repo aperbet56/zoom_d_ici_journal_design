@@ -1,0 +1,159 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: "Alata", sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    color: #1b2d45;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f2f4f6;
+}
+
+/**** header ****/
+
+.text__center {
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    margin-block: 16px;
+}
+
+.text__center,
+.logo,
+time {
+    color: #00214d;
+    text-align: center;
+}
+
+.logo i {
+    font-size: 48px;
+    margin-right: 16px;
+}
+
+time {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Alata", sans-serif;
+}
+
+.header__container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    border-top: 2px solid #1b2d45;
+    border-bottom: 2px solid #1b2d45;
+    margin-bottom: 50px;
+    padding-block: 16px
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 8px;
+}
+
+nav a {
+    transition: color 0.3s ease-in-out
+}
+
+nav a:hover {
+    color: #ff5470;
+}
+
+/**** main ****/
+
+.main__content {
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding: 24px;
+    flex: 1;
+    background-color: #fffffe;
+}
+
+.col:not(:last-child) {
+    border-right: 2px solid #f2f4f6;
+}
+
+main p {
+    line-height: 1.5;
+    margin-block: 16px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #00214d;
+}
+
+/**** footer ****/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 16px 0;
+}
+
+.copyright {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
