@@ -14,6 +14,8 @@ Lien vers le projet : https://aperbet56.github.io/zoom_d_ici_journal_design/
 - CSS3
 - Flexbox
 - Animations CSS (transition)
+- Utilisation d'un normaliseur : le fichier normalize.css
+- Importation des polices "Alata" et "Josefin Sans"
 - Commentaires HTML
 - Commentaires CSS
 - Desktop first
