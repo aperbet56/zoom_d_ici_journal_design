@@ -1,8 +1,10 @@
 ## ZOOM D'ICI - JOURNAL DESIGN 📰
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
-Projet journal design en HTML5, CSS3 et JavaScript.
+Projet : Zoom D'ici - Journal Design en HTML5, CSS3 et JavaScript.
 
 ## Démonstration
 
